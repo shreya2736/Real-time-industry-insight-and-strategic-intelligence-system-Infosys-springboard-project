@@ -7,6 +7,8 @@ from config import SLACK_BOT_TOKEN, SLACK_CHANNEL
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 
+
+
 slack_client = WebClient(token=SLACK_BOT_TOKEN)
 CHANNEL = SLACK_CHANNEL
 
